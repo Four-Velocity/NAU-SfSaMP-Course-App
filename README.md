@@ -1,44 +1,11 @@
-# default
+# Курсова Робота
 
-## Project setup
+> Системи для малих та мобільних платформ   
+> Варіант №13
 
-```
-# yarn
-yarn
+## Завдання
+Користувач вибирає з випадаючого списку графічного інтерфейсу застосунку місто України, після чого виводиться карта міста, на якій користувач позначає своє знаходження в даний час. Програма виводить назву найближчого готелю і надає інформацію про нього, також визначає приблизну відстань до вибраного об’єкту.
 
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-# yarn
-yarn dev
-
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-```
-
-### Compiles and minifies for production
-
-```
-# yarn
-yarn build
-
-# npm
-npm run build
-
-# pnpm
-pnpm build
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).
+## Установка програми
+Перейти за поссиланням [ssmp.app.four-velocity.com](https://ssmp.app.four-velocity.com) та клікнути "Установити"
+> Посилання є валідним до 31 Dec 2022
