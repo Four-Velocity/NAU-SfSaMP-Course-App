@@ -41,6 +41,8 @@ import citiesArray from '@/res/cities.json';
 
 citiesArray.sort((a, b) => a.title.localeCompare(b.title))
 
+console.log(import.meta.env);
+
 export default {
   components: { GoogleMap, Marker },
   data: () => ({
