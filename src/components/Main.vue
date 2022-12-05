@@ -38,12 +38,13 @@
 import { GoogleMap, Marker } from "vue3-google-map";
 import citiesArray from '@/res/cities.json';
 
+
 citiesArray.sort((a, b) => a.title.localeCompare(b.title))
 
 export default {
   components: { GoogleMap, Marker },
   data: () => ({
-    key: process.env.GMAPS_KEY,
+    key: import.meta.env.VITE_GMAPS_KEY,
     center: { lat: 40.689247, lng: -74.044502 },
     select: { title: 'Київ', value: "KV", center: {lat: 50.448287, lng: 30.522876}, zoom: 11},
     cities: citiesArray,
